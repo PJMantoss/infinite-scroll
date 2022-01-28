@@ -42,3 +42,5 @@ async function fetchAndDisplayTestimonials(){
 
     canFetchTestimonials = true;
 }
+
+function createTestimonialElement(message){}
