@@ -21,7 +21,8 @@ function handleScroll(){
     fetchAndDisplayTestimonials();
 }
 
-function fetchAndDisplayTestimonials(){
+async function fetchAndDisplayTestimonials(){
     canFetchTestimonials = false;
     const url = createTestimonials();
+    const response = await fetch(url);
 }
