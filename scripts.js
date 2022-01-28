@@ -17,4 +17,6 @@ function handleScroll(){
     );
 
     if(bottomSpaceLeftToScroll > 0) return;
+
+    fetchAndDisplayTestimonials();
 }
