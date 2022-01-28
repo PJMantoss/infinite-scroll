@@ -36,5 +36,7 @@ async function fetchAndDisplayTestimonials(){
 
     if(hasNext){
         afterId = testimonials[testimonials.length - 1].id
+    } else {
+        testimonialDiv.removeEventListener('scroll', handleScroll);
     }
 }
