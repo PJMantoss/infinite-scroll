@@ -50,4 +50,7 @@ function createTestimonialElement(message){
     return testimonialElement;
 };
 
-function createTestimonialUrl(){};
+function createTestimonialUrl(){
+    const url = new URL();
+    url.searchParams.set();
+};
