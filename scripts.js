@@ -30,6 +30,7 @@ async function fetchAndDisplayTestimonials(){
     const fragment = document.createDocumentFragment();
 
     testimonials.forEach(({ message }) => {
-        fragment.appendChild(createTestimonialElement(message))
-    })
+        fragment.appendChild(createTestimonialElement(message));
+    });
+    testimonialDiv.appendChild(fragment);
 }
