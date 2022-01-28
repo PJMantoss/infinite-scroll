@@ -5,3 +5,7 @@ let canFetchTestimonials = true;
 let afterId = null;
 
 const testimonialDiv = document.getElementById('testimonial-container');
+
+testimonialDiv.addEventListener('scroll', handleScroll);
+
+fetchAndDisplayTestimonials();
