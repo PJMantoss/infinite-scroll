@@ -43,4 +43,7 @@ async function fetchAndDisplayTestimonials(){
     canFetchTestimonials = true;
 }
 
-function createTestimonialElement(message){}
+function createTestimonialElement(message){
+    const testimonialElement = document.createElement('p');
+    
+}
