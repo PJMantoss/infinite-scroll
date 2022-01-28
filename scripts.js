@@ -25,4 +25,7 @@ async function fetchAndDisplayTestimonials(){
     canFetchTestimonials = false;
     const url = createTestimonials();
     const response = await fetch(url);
+    const {testimonials, hasNext} = await response.json;
+
+    const fragment = createDocumentFragment();
 }
