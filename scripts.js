@@ -46,4 +46,5 @@ async function fetchAndDisplayTestimonials(){
 function createTestimonialElement(message){
     const testimonialElement = document.createElement('p');
     testimonialElement.classList.add('testimonial');
+    testimonialElement.textContent = message;
 }
