@@ -57,4 +57,6 @@ function createTestimonialUrl(){
     if(afterId !== null){
         url.searchParams.set('after', afterId);
     }
+
+    return url;
 };
