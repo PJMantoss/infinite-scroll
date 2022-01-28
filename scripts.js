@@ -13,6 +13,8 @@ fetchAndDisplayTestimonials();
 function handleScroll(){
     if(!canFetchTestimonials) return;
     const bottomSpaceLeftToScroll = (
-        this.scrollHeight
-    )
+        this.scrollHeight - this.scrollTop - this.clientHeight
+    );
+
+    if(bottomSpaceLeftToScroll > 0) return;
 }
