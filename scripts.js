@@ -33,4 +33,8 @@ async function fetchAndDisplayTestimonials(){
         fragment.appendChild(createTestimonialElement(message));
     });
     testimonialDiv.appendChild(fragment);
+
+    if(hasNext){
+        afterId = testimonials[testimonials.length - 1].id
+    }
 }
