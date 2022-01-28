@@ -55,6 +55,6 @@ function createTestimonialUrl(){
     url.searchParams.set('limit', PAGE_SIZE);
 
     if(afterId !== null){
-        url.searchParams.set();
+        url.searchParams.set('after', afterId);
     }
 };
