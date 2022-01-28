@@ -1,0 +1,1 @@
+const API_BASE_URL = 'https://www.algoexpert.io/api/testimonial';
