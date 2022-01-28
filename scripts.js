@@ -39,4 +39,6 @@ async function fetchAndDisplayTestimonials(){
     } else {
         testimonialDiv.removeEventListener('scroll', handleScroll);
     }
+
+    canFetchTestimonials = true;
 }
