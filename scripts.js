@@ -48,4 +48,6 @@ function createTestimonialElement(message){
     testimonialElement.classList.add('testimonial');
     testimonialElement.textContent = message;
     return testimonialElement;
-}
+};
+
+function createTestimonialUrl(){};
