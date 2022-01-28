@@ -53,4 +53,8 @@ function createTestimonialElement(message){
 function createTestimonialUrl(){
     const url = new URL(API_BASE_URL);
     url.searchParams.set('limit', PAGE_SIZE);
+
+    if(afterId !== null){
+        url.searchParams.set();
+    }
 };
