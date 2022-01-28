@@ -20,4 +20,6 @@ h1 {
 .testimonial {
     font-size: 18px;
     margin: 16px;
+    border-top: 4px solid #11967e;
+    border-radius: 8px;
 }
