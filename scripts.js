@@ -10,4 +10,6 @@ testimonialDiv.addEventListener('scroll', handleScroll);
 
 fetchAndDisplayTestimonials();
 
-function handleScroll(){}
+function handleScroll(){
+    if(!canFetchTestimonials) return;
+}
