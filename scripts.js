@@ -27,5 +27,9 @@ async function fetchAndDisplayTestimonials(){
     const response = await fetch(url);
     const {testimonials, hasNext} = await response.json;
 
-    const fragment = createDocumentFragment();
+    const fragment = document.createDocumentFragment();
+
+    testimonials.forEach(({ message }) => {
+        fragment.appendChild(createTestimonialElement(message))
+    })
 }
