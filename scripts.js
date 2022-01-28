@@ -20,3 +20,8 @@ function handleScroll(){
 
     fetchAndDisplayTestimonials();
 }
+
+function fetchAndDisplayTestimonials(){
+    canFetchTestimonials = false;
+    const url = createTestimonials();
+}
