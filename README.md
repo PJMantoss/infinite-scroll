@@ -1,7 +1,7 @@
 # Infinte Scroll
 
 ## Tech Used
-- HTNL/CSS
+- HTML/CSS
 - AlgoExpert Testimonial API
 
 ## Description
